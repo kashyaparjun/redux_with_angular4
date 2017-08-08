@@ -1,0 +1,7 @@
+<li>
+  <ul [ngClass]="l.color" *ngFor="let l of list">
+    <h2>{{l.name}}</h2>
+    <p>{{l.priority}}</p>
+    <button type="button" class="btn btn-danger" (click)="remove(l.id)">Remove</button>
+  </ul>
+</li>
