@@ -27,7 +27,7 @@ export function rootReducer(state: IAppState, action): IAppState {
         case REMOVE_EMP:
             var t = []
             for(var i = 0;i<state.list.length;i++){
-                if(!state.list[i].id==action.id){
+                if(state.list[i].id!=action.id){
                     t.push(state.list[i]);
                 }
             }
