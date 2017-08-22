@@ -9,3 +9,7 @@ This is using ng2-redux package.
 if the packages aren't installed on npm install use:
 npm install ng2-redux
 npm install redux
+
+Using tassign package to add or concat to the state variable
+
+Implementation with ngrx coming soon...
